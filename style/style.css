@@ -15,6 +15,12 @@
 
 
 /* index */
+
+header {
+    position: sticky;
+    top: 0;
+}
+
 .hero{
     background-image: url(../imagenes/LogoSample_ByTailorBrands.jpg);
     height: 500px;
@@ -37,8 +43,8 @@
 
 .card-img-top{
     display: flex;
-    height: 150px;
-    width: 100px;
+    height: 182px;
+   object-fit: contain;
  }
 
 .card {
@@ -63,4 +69,9 @@ p {
    
     margin-top: 5rem;
     margin-bottom: 1rem;
+}
+
+/* servicio */
+main{
+    min-height: 80vh;
 }
