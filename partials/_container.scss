@@ -1,0 +1,24 @@
+.container{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    column-gap: 7px;
+    row-gap: 7px;
+
+    .card {
+   
+        margin: 2px;
+    
+        .card-img-top{
+            display: flex;
+            height: 182px;
+           object-fit: contain;
+        
+           .text{
+              font-size: 15px;
+              font-display: flex;
+           }
+        
+         }
+    }
+  
+}
