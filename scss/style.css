@@ -20,7 +20,6 @@
 
 .container {
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
   -moz-column-gap: 7px;
        column-gap: 7px;
   row-gap: 7px;
@@ -33,10 +32,6 @@
   height: 182px;
   -o-object-fit: contain;
      object-fit: contain;
-}
-.container .card .card-img-top .text {
-  font-size: 15px;
-  font-display: flex;
 }
 
 .scale-up-center {
