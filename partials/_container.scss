@@ -1,8 +1,7 @@
 .container{
-    display: grid;
-    column-gap: 7px;
-    row-gap: 7px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     .card {
    
         margin: 2px;
